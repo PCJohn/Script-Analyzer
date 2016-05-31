@@ -4,7 +4,7 @@ Python modules to analyze movie scripts
 ScriptAnalyzer contains tools for analyzing character interactions in movie scripts. It contains methods for finding the centrality of characters and extracting the important characters using the mean centrality as cutoff. Along with this, the scene_extraction module scores scenes. A scene score is the mean TFIDF score of all the keywords in the scene.
 
 Format of the script:
-All scripts on www.imsdb.com are written with the following format:
+All scripts have been scraped from www.imsdb.com/all%20scripts/ and have the following format:
 
     DESCRIPTION
         ... (description of the scene/character action)
@@ -30,4 +30,5 @@ Usage:
 (1) Extract scripts_clean.tar.gz to scripts_clean in the Script-Analyzer directory. This should extract all preprocessed the movie scripts.
 (2) Run python example.py to see the demo of the character and important scene extraction on the movie "All the President's Men".
 
-The methods to be used can be found in example.py. Details of usage are written in individual modules. script_reader.py handles character interaction and centrality measures while scene_extractor handles finding the most important (actually, the most unique) scenes in the script.
+The methods to be used can be found in example.py. Details of usage are written in individual modules.
+script_reader.py handles character interaction and centrality measures while scene_extractor handles finding the most important (actually, the most unique) scenes in the script.
