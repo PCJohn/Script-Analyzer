@@ -7,12 +7,14 @@ A demo of the character graph centrality can be found here: http://prithvijc.pyt
 
 Requirements:
 
+
     (1) Python 2.7
     (2) matplotlib
     (3) networkx
     (4) numpy
 
 Format of the script:
+
 All scripts have been scraped from www.imsdb.com/all%20scripts/ and have the following format:
 
     DESCRIPTION
