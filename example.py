@@ -7,7 +7,7 @@ import scene_extractor as se
 reader = sr.Reader()
 #Create a scene extractor with the default TFIDF model provided: tfidf_model1.pkl
 scene_finder = se.Scene_Extractor()
-#Load the script of Forrest Gump
+#Load the script of All the President's Men
 scripts = sm.load_scripts('scripts_clean/',count=1,name='All the President\'s Men.txt')
 for name,script in scripts:
     print name
