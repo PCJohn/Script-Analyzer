@@ -5,6 +5,13 @@ ScriptAnalyzer contains tools for analyzing character interactions in movie scri
 
 A demo of the character graph centrality can be found here: http://prithvijc.pythonanywhere.com/movie_graph
 
+Requirements:
+
+    (1) Python 2.7
+    (2) matplotlib
+    (3) networkx
+    (4) numpy
+
 Format of the script:
 All scripts have been scraped from www.imsdb.com/all%20scripts/ and have the following format:
 
